@@ -1,5 +1,5 @@
 
-<img src="https://readme-typing-svg.demolab.com?font=Inconsolata&weight=500&size=50&duration=4000&pause=300&color=A7A459&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=1300&height=140&lines=Hello+hello;I'm+Milen%2C+a+passioned+frontend+developer+from+Bulgaria+%E2%9C%A9" width="70%" />
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F7F7F7&width=800&height=100&lines=Hello%2C+hello!;I'm+Milen+-+a+passionate+frontend+developer+from+Bulgaria." alt="Typing SVG" /></a>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=stantchev&label=Profile%20views&color=0e75b6&style=flat" alt="stantchev" /> </p>
 
