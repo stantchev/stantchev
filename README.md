@@ -1,4 +1,6 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F7F7F7&width=800&height=100&lines=Hello%2C+hello!;I'm+Milen+-+a+passionate+frontend+developer+from+Bulgaria." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F7F7F7&width=800&height=100&lines=Hello%2C+hello!;I'm+Milen+-+a+passionate+frontend+developer+from+Bulgaria." alt="Typing SVG" style="max-width: 100%; height: auto;" />
+</a>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=stantchev&label=Profile%20views&color=0e75b6&style=flat" alt="stantchev" /> </p>
 
