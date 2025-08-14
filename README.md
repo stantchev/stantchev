@@ -2,13 +2,13 @@
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F7F7F7&width=800&height=100&lines=Hello%2C+hello!;I'm+Stanchev+-+a+passionate+frontend+developer+from+Bulgaria." alt="Typing SVG" style="max-width: 100%; height: auto;" />
 </a>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=stantchev&label=Profile%20views&color=0e75b6&style=flat" alt="stantchev" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=stantchev&label=Profile%20views&color=0e75b6&style=flat" alt="stanchev" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=stantchev" alt="stantchev" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=stantchev" alt="stanchev" /></a> </p>
 
-- 🌱 I’m currently learning **JavaScript**
+- 🌱 I’m currently learning **AI Automation**
 
-- 📫 How to reach me **stantcheff@gmail.com**
+- 📫 How to reach me **seo@stanchev.bg** /  <a href="https://stanchev.bg/kontakti"> This link </a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
