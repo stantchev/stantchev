@@ -48,27 +48,6 @@
 
 ---
 
-## ⚡ GitHub Stats
-
-<div align="center">
-  <img width="390" src="https://github-readme-stats.vercel.app/api?username=stantchev&theme=transparent&count_private=true&show_icons=true&rank_icon=github&locale=en" alt="Milen Stanchev's GitHub Stats" />
-  <img width="325" src="https://github-readme-stats.vercel.app/api/top-langs?username=stantchev&theme=transparent&layout=donut&hide=css&langs_count=8&border_radius=10&show_icons=true&locale=en" alt="Most Used Languages" />
-</div>
-
----
-
-## 🐍 Contribution Graph
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/stantchev/stantchev/refs/heads/main/github-user-contribution.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/stantchev/stantchev/refs/heads/main/github-user-contribution.svg" />
-    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/stantchev/stantchev/refs/heads/main/github-user-contribution.svg" />
-  </picture>
-</div>
-
----
-
 <div align="center">
   <sub>Built with care · <a href="https://stanchev.bg">stanchev.bg</a></sub>
 </div>
