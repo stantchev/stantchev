@@ -2,8 +2,6 @@
   <img src="https://profile-counter.deno.dev/:stantchev:/count.svg" alt="Visitor Count" />
 </div>
 
-<img src="https://github.com/stantchev/stantchev/blob/main/wallpaper.png" alt="Banner" />
-
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Inter&size=48&center=true&vCenter=true&width=500&height=70&color=4493F8&duration=4000&lines=Hey+there!+👋;I'm+Milen+Stanchev;" />
 </h1>
