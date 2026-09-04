@@ -1,18 +1,34 @@
 {
-  "theme": "tokyonight",
-  "headerStyle": "mac",
-  "hostname": "github.com",
-  "typingSpeed": 55,
+  "theme": "hacker",
+  "headerStyle": "retro",
+  "hostname": "0xdeadbeef",
+  "typingSpeed": 42,
+  "linePause": 240,
   "loop": true,
-  "width": 840,
+  "width": 860,
+  "glow": true,
+  "scanlines": true,
+  "art": "skull",
   "commands": [
+    "./init.sh --root",
     "whoami",
     "neofetch",
+    "cat /etc/stack",
     "languages",
     "top-repos",
-    "uptime",
+    "nmap -sS localhost",
+    "history | tail -3",
+    "contact --list",
+    "sudo rm -rf /",
     "exit"
   ],
-  "customCommands": {},
+  "customCommands": {
+    "./init.sh --root": "[ OK ] mounting /dev/brain\n[ OK ] escalating privileges\n[ OK ] access granted",
+    "cat /etc/stack": "security:  pentesting, threat modeling, incident response\nseo:       technical audits, schema, core web vitals\nscripting: python, bash, sql",
+    "nmap -sS localhost": "PORT     STATE  SERVICE\n22/tcp   open   ssh\n443/tcp  open   https\n8080/tcp open   side-project\n3000/tcp open   another-side-project",
+    "history | tail -3": "git commit -m 'fix'\ngit commit -m 'fix fix'\ngit commit -m 'ok naistina fix'",
+    "contact --list": "linkedin: /in/stanchev-seo",
+    "sudo rm -rf /": "permission denied: nice try"
+  },
   "out": "assets/github_stats.svg"
 }
