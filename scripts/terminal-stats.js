@@ -43,6 +43,9 @@ const DEFAULTS = {
   width: 840,
   fontSize: 14,
   loop: true,
+  glow: false,       // CRT phosphor bloom on all text
+  scanlines: false,  // horizontal CRT scanline overlay
+  art: 'octocat',    // octocat | skull | none
 };
 
 function parseArgs(argv) {
@@ -143,16 +146,31 @@ async function fetchStats(username) {
 const pad = (s, n) => String(s).padEnd(n).slice(0, n);
 const padL = (s, n) => String(s).padStart(n);
 
-const OCTO = [
-  '        ,,,,,,,        ',
-  '     .:;;;;;;;;;:.     ',
-  '   .;;;         ;;;.   ',
-  '  ;;;    o   o    ;;;  ',
-  '  ;;;      <      ;;;  ',
-  '   ;;;.  \\___/  .;;;   ',
-  '    `;;;;;;;;;;;;;`    ',
-  '       `\\;;;;;/`       ',
-];
+const ART = {
+  octocat: [
+    '        ,,,,,,,        ',
+    '     .:;;;;;;;;;:.     ',
+    '   .;;;         ;;;.   ',
+    '  ;;;    o   o    ;;;  ',
+    '  ;;;      <      ;;;  ',
+    '   ;;;.  \\___/  .;;;   ',
+    '    `;;;;;;;;;;;;;`    ',
+    '       `\\;;;;;/`       ',
+  ],
+  skull: [
+    '      .-"""""""-.      ',
+    '    .\'  _     _  `.    ',
+    '   /   (o)   (o)   \\   ',
+    '  |      .---.      |  ',
+    '   \\    \'-...-\'    /   ',
+    '    `.  |||||||  .\'    ',
+    '      `-.......-\'      ',
+    '     [ ACCESS: ROOT ]  ',
+  ],
+  none: [],
+};
+
+let OCTO = ART.octocat;
 
 function cmdWhoami(d, t) {
   return [
@@ -176,12 +194,13 @@ function cmdNeofetch(d, t) {
   if (d.company) info.push(['Company', d.company]);
 
   const rows = Math.max(OCTO.length, info.length);
+  const artW = OCTO.length ? OCTO[0].length : 0;
   const lines = [];
   for (let i = 0; i < rows; i++) {
-    const art = OCTO[i] || ' '.repeat(OCTO[0].length);
-    const COL_K = OCTO[0].length + 3;   // key column
+    const art = OCTO[i] || ' '.repeat(artW);
+    const COL_K = artW ? artW + 3 : 2;  // key column
     const COL_V = COL_K + 13;           // value column
-    const segs = [{ text: art, color: t.accent, col: 0 }];
+    const segs = artW ? [{ text: art, color: t.accent, col: 0 }] : [];
     const item = info[i];
     if (item === null) {
       segs.push({ text: '-'.repeat(24), color: t.dim, col: COL_K });
@@ -287,6 +306,7 @@ const esc = s => String(s)
 function buildSVG(d, cfg) {
   const t = THEMES[cfg.theme] || THEMES.tokyonight;
   DEFAULTS._hostname = cfg.hostname;
+  OCTO = ART[cfg.art] || ART.octocat;
 
   const FS = cfg.fontSize;
   const CH = FS * 0.6;              // monospace advance width
@@ -411,7 +431,23 @@ function buildSVG(d, cfg) {
 
   const iter = cfg.loop ? 'infinite' : '1';
 
+  const defs = `<defs>
+<filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+  <feGaussianBlur stdDeviation="1.6" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+  <rect width="4" height="2" fill="#000000" fill-opacity="0.22"/>
+</pattern>
+</defs>`;
+
+  const glowAttr = cfg.glow ? ' filter="url(#glow)"' : '';
+  const overlay = cfg.scanlines
+    ? `<rect width="${width}" height="${height}" rx="10" fill="url(#scan)" pointer-events="none"/>`
+    : '';
+
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace">
+${defs}
 <style>
 .ln{font-size:${FS}px;animation-duration:${(TOTAL / 1000).toFixed(2)}s;animation-iteration-count:${iter};animation-fill-mode:both;animation-timing-function:linear}
 .ln.vis{animation:none;opacity:1}
@@ -422,10 +458,13 @@ function buildSVG(d, cfg) {
 ${css.join('\n')}
 </style>
 <rect width="${width}" height="${height}" rx="10" fill="${t.bg}"/>
-<rect width="${width}" height="${height}" rx="10" fill="none" stroke="${t.dim}" stroke-opacity="0.4"/>
+<rect width="${width}" height="${height}" rx="10" fill="none" stroke="${t.accent}" stroke-opacity="${cfg.glow ? '0.5' : '0.25'}"/>
+<g${glowAttr}>
 ${headerBlock}
 ${body.join('\n')}
 <rect class="cursor" x="${PADX}" y="${lastY + LH - FS + 1}" width="${(CH).toFixed(1)}" height="${FS}" fill="${t.accent}"/>
+</g>
+${overlay}
 </svg>
 `;
 }
