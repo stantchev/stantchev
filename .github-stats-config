@@ -1,0 +1,18 @@
+{
+  "theme": "tokyonight",
+  "headerStyle": "mac",
+  "hostname": "github.com",
+  "typingSpeed": 55,
+  "loop": true,
+  "width": 840,
+  "commands": [
+    "whoami",
+    "neofetch",
+    "languages",
+    "top-repos",
+    "uptime",
+    "exit"
+  ],
+  "customCommands": {},
+  "out": "assets/github_stats.svg"
+}
