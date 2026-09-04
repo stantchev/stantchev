@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="818" viewBox="0 0 840 818" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="1258" viewBox="0 0 860 1258" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace">
 <defs>
 <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
   <feGaussianBlur stdDeviation="1.6" result="b"/>
@@ -9,97 +9,147 @@
 </pattern>
 </defs>
 <style>
-.ln{font-size:14px;animation-duration:8.30s;animation-iteration-count:infinite;animation-fill-mode:both;animation-timing-function:linear}
+.ln{font-size:14px;animation-duration:14.07s;animation-iteration-count:infinite;animation-fill-mode:both;animation-timing-function:linear}
 .ln.vis{animation:none;opacity:1}
 .typed{white-space:pre}
 .cursor{animation:blink 1s steps(1) infinite}
 </style>
 <style>
-@keyframes p0{0%{opacity:0}3.3715%{opacity:0}4.8164%{opacity:1}100%{opacity:1}}
-@keyframes t0{0%{clip-path:inset(0 100% 0 0)}4.8164%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(6,end)}8.7899%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
-@keyframes p1{0%{opacity:0}11.9085%{opacity:0}11.9205%{opacity:1}100%{opacity:1}}
-@keyframes p2{0%{opacity:0}12.4503%{opacity:0}12.4624%{opacity:1}100%{opacity:1}}
-@keyframes p3{0%{opacity:0}15.4124%{opacity:0}16.8573%{opacity:1}100%{opacity:1}}
-@keyframes t3{0%{clip-path:inset(0 100% 0 0)}16.8573%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(8,end)}22.1553%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
-@keyframes p4{0%{opacity:0}25.2739%{opacity:0}25.2860%{opacity:1}100%{opacity:1}}
-@keyframes p5{0%{opacity:0}25.8158%{opacity:0}25.8278%{opacity:1}100%{opacity:1}}
-@keyframes p6{0%{opacity:0}26.3576%{opacity:0}26.3697%{opacity:1}100%{opacity:1}}
-@keyframes p7{0%{opacity:0}26.8995%{opacity:0}26.9115%{opacity:1}100%{opacity:1}}
-@keyframes p8{0%{opacity:0}27.4413%{opacity:0}27.4533%{opacity:1}100%{opacity:1}}
-@keyframes p9{0%{opacity:0}27.9831%{opacity:0}27.9952%{opacity:1}100%{opacity:1}}
-@keyframes p10{0%{opacity:0}28.5250%{opacity:0}28.5370%{opacity:1}100%{opacity:1}}
-@keyframes p11{0%{opacity:0}29.0668%{opacity:0}29.0789%{opacity:1}100%{opacity:1}}
-@keyframes p12{0%{opacity:0}29.6087%{opacity:0}29.6207%{opacity:1}100%{opacity:1}}
-@keyframes p13{0%{opacity:0}32.5707%{opacity:0}34.0157%{opacity:1}100%{opacity:1}}
-@keyframes t13{0%{clip-path:inset(0 100% 0 0)}34.0157%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(9,end)}39.9759%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
-@keyframes p14{0%{opacity:0}43.0945%{opacity:0}43.1066%{opacity:1}100%{opacity:1}}
-@keyframes p15{0%{opacity:0}43.6364%{opacity:0}43.6484%{opacity:1}100%{opacity:1}}
-@keyframes p16{0%{opacity:0}44.1782%{opacity:0}44.1902%{opacity:1}100%{opacity:1}}
-@keyframes p17{0%{opacity:0}44.7200%{opacity:0}44.7321%{opacity:1}100%{opacity:1}}
-@keyframes p18{0%{opacity:0}45.2619%{opacity:0}45.2739%{opacity:1}100%{opacity:1}}
-@keyframes p19{0%{opacity:0}45.8037%{opacity:0}45.8158%{opacity:1}100%{opacity:1}}
-@keyframes p20{0%{opacity:0}46.3456%{opacity:0}46.3576%{opacity:1}100%{opacity:1}}
-@keyframes p21{0%{opacity:0}49.3076%{opacity:0}50.7526%{opacity:1}100%{opacity:1}}
-@keyframes t21{0%{clip-path:inset(0 100% 0 0)}50.7526%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(9,end)}56.7128%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
-@keyframes p22{0%{opacity:0}59.8314%{opacity:0}59.8435%{opacity:1}100%{opacity:1}}
-@keyframes p23{0%{opacity:0}60.3733%{opacity:0}60.3853%{opacity:1}100%{opacity:1}}
-@keyframes p24{0%{opacity:0}60.9151%{opacity:0}60.9272%{opacity:1}100%{opacity:1}}
-@keyframes p25{0%{opacity:0}61.4570%{opacity:0}61.4690%{opacity:1}100%{opacity:1}}
-@keyframes p26{0%{opacity:0}61.9988%{opacity:0}62.0108%{opacity:1}100%{opacity:1}}
-@keyframes p27{0%{opacity:0}62.5406%{opacity:0}62.5527%{opacity:1}100%{opacity:1}}
-@keyframes p28{0%{opacity:0}63.0825%{opacity:0}63.0945%{opacity:1}100%{opacity:1}}
-@keyframes p29{0%{opacity:0}66.0446%{opacity:0}67.4895%{opacity:1}100%{opacity:1}}
-@keyframes t29{0%{clip-path:inset(0 100% 0 0)}67.4895%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(6,end)}71.4630%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
-@keyframes p30{0%{opacity:0}74.5816%{opacity:0}74.5936%{opacity:1}100%{opacity:1}}
-@keyframes p31{0%{opacity:0}77.5436%{opacity:0}78.9886%{opacity:1}100%{opacity:1}}
-@keyframes t31{0%{clip-path:inset(0 100% 0 0)}78.9886%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(4,end)}81.6376%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
-@keyframes p32{0%{opacity:0}84.7562%{opacity:0}84.7682%{opacity:1}100%{opacity:1}}
+@keyframes p0{0%{opacity:0}1.9906%{opacity:0}2.8437%{opacity:1}100%{opacity:1}}
+@keyframes t0{0%{clip-path:inset(0 100% 0 0)}2.8437%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(16,end)}7.6212%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
+@keyframes p1{0%{opacity:0}9.4625%{opacity:0}9.4696%{opacity:1}100%{opacity:1}}
+@keyframes p2{0%{opacity:0}9.7825%{opacity:0}9.7896%{opacity:1}100%{opacity:1}}
+@keyframes p3{0%{opacity:0}10.1024%{opacity:0}10.1095%{opacity:1}100%{opacity:1}}
+@keyframes p4{0%{opacity:0}11.2825%{opacity:0}12.1356%{opacity:1}100%{opacity:1}}
+@keyframes t4{0%{clip-path:inset(0 100% 0 0)}12.1356%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(6,end)}13.9272%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
+@keyframes p5{0%{opacity:0}15.7685%{opacity:0}15.7756%{opacity:1}100%{opacity:1}}
+@keyframes p6{0%{opacity:0}16.0884%{opacity:0}16.0955%{opacity:1}100%{opacity:1}}
+@keyframes p7{0%{opacity:0}17.2686%{opacity:0}18.1217%{opacity:1}100%{opacity:1}}
+@keyframes t7{0%{clip-path:inset(0 100% 0 0)}18.1217%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(8,end)}20.5105%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
+@keyframes p8{0%{opacity:0}22.3518%{opacity:0}22.3589%{opacity:1}100%{opacity:1}}
+@keyframes p9{0%{opacity:0}22.6717%{opacity:0}22.6788%{opacity:1}100%{opacity:1}}
+@keyframes p10{0%{opacity:0}22.9916%{opacity:0}22.9987%{opacity:1}100%{opacity:1}}
+@keyframes p11{0%{opacity:0}23.3115%{opacity:0}23.3186%{opacity:1}100%{opacity:1}}
+@keyframes p12{0%{opacity:0}23.6315%{opacity:0}23.6386%{opacity:1}100%{opacity:1}}
+@keyframes p13{0%{opacity:0}23.9514%{opacity:0}23.9585%{opacity:1}100%{opacity:1}}
+@keyframes p14{0%{opacity:0}24.2713%{opacity:0}24.2784%{opacity:1}100%{opacity:1}}
+@keyframes p15{0%{opacity:0}24.5912%{opacity:0}24.5983%{opacity:1}100%{opacity:1}}
+@keyframes p16{0%{opacity:0}24.9111%{opacity:0}24.9182%{opacity:1}100%{opacity:1}}
+@keyframes p17{0%{opacity:0}26.0913%{opacity:0}26.9444%{opacity:1}100%{opacity:1}}
+@keyframes t17{0%{clip-path:inset(0 100% 0 0)}26.9444%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(14,end)}31.1247%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
+@keyframes p18{0%{opacity:0}32.9660%{opacity:0}32.9731%{opacity:1}100%{opacity:1}}
+@keyframes p19{0%{opacity:0}33.2859%{opacity:0}33.2930%{opacity:1}100%{opacity:1}}
+@keyframes p20{0%{opacity:0}33.6059%{opacity:0}33.6130%{opacity:1}100%{opacity:1}}
+@keyframes p21{0%{opacity:0}34.7860%{opacity:0}35.6391%{opacity:1}100%{opacity:1}}
+@keyframes t21{0%{clip-path:inset(0 100% 0 0)}35.6391%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(9,end)}38.3265%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
+@keyframes p22{0%{opacity:0}40.1678%{opacity:0}40.1749%{opacity:1}100%{opacity:1}}
+@keyframes p23{0%{opacity:0}40.4877%{opacity:0}40.4948%{opacity:1}100%{opacity:1}}
+@keyframes p24{0%{opacity:0}40.8076%{opacity:0}40.8147%{opacity:1}100%{opacity:1}}
+@keyframes p25{0%{opacity:0}41.1275%{opacity:0}41.1347%{opacity:1}100%{opacity:1}}
+@keyframes p26{0%{opacity:0}41.4475%{opacity:0}41.4546%{opacity:1}100%{opacity:1}}
+@keyframes p27{0%{opacity:0}41.7674%{opacity:0}41.7745%{opacity:1}100%{opacity:1}}
+@keyframes p28{0%{opacity:0}42.0873%{opacity:0}42.0944%{opacity:1}100%{opacity:1}}
+@keyframes p29{0%{opacity:0}43.2675%{opacity:0}44.1206%{opacity:1}100%{opacity:1}}
+@keyframes t29{0%{clip-path:inset(0 100% 0 0)}44.1206%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(9,end)}46.8079%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
+@keyframes p30{0%{opacity:0}48.6492%{opacity:0}48.6563%{opacity:1}100%{opacity:1}}
+@keyframes p31{0%{opacity:0}48.9691%{opacity:0}48.9763%{opacity:1}100%{opacity:1}}
+@keyframes p32{0%{opacity:0}49.2891%{opacity:0}49.2962%{opacity:1}100%{opacity:1}}
+@keyframes p33{0%{opacity:0}49.6090%{opacity:0}49.6161%{opacity:1}100%{opacity:1}}
+@keyframes p34{0%{opacity:0}49.9289%{opacity:0}49.9360%{opacity:1}100%{opacity:1}}
+@keyframes p35{0%{opacity:0}50.2488%{opacity:0}50.2559%{opacity:1}100%{opacity:1}}
+@keyframes p36{0%{opacity:0}50.5687%{opacity:0}50.5759%{opacity:1}100%{opacity:1}}
+@keyframes p37{0%{opacity:0}51.7489%{opacity:0}52.6020%{opacity:1}100%{opacity:1}}
+@keyframes t37{0%{clip-path:inset(0 100% 0 0)}52.6020%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(18,end)}57.9767%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
+@keyframes p38{0%{opacity:0}59.8180%{opacity:0}59.8251%{opacity:1}100%{opacity:1}}
+@keyframes p39{0%{opacity:0}60.1379%{opacity:0}60.1450%{opacity:1}100%{opacity:1}}
+@keyframes p40{0%{opacity:0}60.4578%{opacity:0}60.4650%{opacity:1}100%{opacity:1}}
+@keyframes p41{0%{opacity:0}60.7778%{opacity:0}60.7849%{opacity:1}100%{opacity:1}}
+@keyframes p42{0%{opacity:0}61.0977%{opacity:0}61.1048%{opacity:1}100%{opacity:1}}
+@keyframes p43{0%{opacity:0}62.2778%{opacity:0}63.1310%{opacity:1}100%{opacity:1}}
+@keyframes t43{0%{clip-path:inset(0 100% 0 0)}63.1310%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(17,end)}68.2070%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
+@keyframes p44{0%{opacity:0}70.0483%{opacity:0}70.0555%{opacity:1}100%{opacity:1}}
+@keyframes p45{0%{opacity:0}70.3683%{opacity:0}70.3754%{opacity:1}100%{opacity:1}}
+@keyframes p46{0%{opacity:0}70.6882%{opacity:0}70.6953%{opacity:1}100%{opacity:1}}
+@keyframes p47{0%{opacity:0}71.8683%{opacity:0}72.7215%{opacity:1}100%{opacity:1}}
+@keyframes t47{0%{clip-path:inset(0 100% 0 0)}72.7215%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(14,end)}76.9017%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
+@keyframes p48{0%{opacity:0}78.7431%{opacity:0}78.7502%{opacity:1}100%{opacity:1}}
+@keyframes p49{0%{opacity:0}79.9232%{opacity:0}80.7763%{opacity:1}100%{opacity:1}}
+@keyframes t49{0%{clip-path:inset(0 100% 0 0)}80.7763%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(13,end)}84.6580%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
+@keyframes p50{0%{opacity:0}86.4994%{opacity:0}86.5065%{opacity:1}100%{opacity:1}}
+@keyframes p51{0%{opacity:0}87.6795%{opacity:0}88.5326%{opacity:1}100%{opacity:1}}
+@keyframes t51{0%{clip-path:inset(0 100% 0 0)}88.5326%{clip-path:inset(0 100% 0 0);animation-timing-function:steps(4,end)}89.7270%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
+@keyframes p52{0%{opacity:0}91.5683%{opacity:0}91.5754%{opacity:1}100%{opacity:1}}
 @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
 </style>
-<rect width="840" height="818" rx="10" fill="#1a1b26"/>
-<rect width="840" height="818" rx="10" fill="none" stroke="#7aa2f7" stroke-opacity="0.25"/>
-<g>
-<rect x="0" y="0" width="840" height="38" rx="8" fill="#1a1b26"/><rect x="0" y="30" width="840" height="8" fill="#1a1b26"/><line x1="0" y1="38" x2="840" y2="38" stroke="#565f89" stroke-opacity="0.35"/><circle cx="22" cy="19" r="6" fill="#ff5f56"/><circle cx="42" cy="19" r="6" fill="#ffbd2e"/><circle cx="62" cy="19" r="6" fill="#27c93f"/><text x="420" y="24" text-anchor="middle" class="ln vis" fill="#565f89" font-size="13">stantchev@github.com</text>
-<text x="22" y="76" class="ln" fill="#9ece6a" style="animation-name:p0">stantchev@github.com:~$ </text>
-<text x="223.60000000000002" y="76" class="ln typed" fill="#a9b1d6" style="animation-name:t0">whoami</text>
-<text x="22" y="98" class="ln" style="animation-name:p1" xml:space="preserve"><tspan fill="#a9b1d6" xml:space="preserve">Stanchev Digital</tspan></text>
-<text x="22" y="120" class="ln" style="animation-name:p2" xml:space="preserve"><tspan fill="#565f89" xml:space="preserve">Front-End Developer &amp; Technical SEO Specialist. Building with React, Next.js &amp; Node.js. Obsessed with fast, crawlable, well-structured web. 📍 Bulgaria</tspan></text>
-<text x="22" y="142" class="ln" fill="#9ece6a" style="animation-name:p3">stantchev@github.com:~$ </text>
-<text x="223.60000000000002" y="142" class="ln typed" fill="#a9b1d6" style="animation-name:t3">neofetch</text>
-<text x="22" y="164" class="ln" style="animation-name:p4" xml:space="preserve"><tspan x="22.0" fill="#7aa2f7" xml:space="preserve">        ,,,,,,,        </tspan><tspan x="240.4" fill="#9ece6a" xml:space="preserve">stantchev@github.com</tspan></text>
-<text x="22" y="186" class="ln" style="animation-name:p5" xml:space="preserve"><tspan x="22.0" fill="#7aa2f7" xml:space="preserve">     .:;;;;;;;;;:.     </tspan><tspan x="240.4" fill="#565f89" xml:space="preserve">------------------------</tspan></text>
-<text x="22" y="208" class="ln" style="animation-name:p6" xml:space="preserve"><tspan x="22.0" fill="#7aa2f7" xml:space="preserve">   .;;;         ;;;.   </tspan><tspan x="240.4" fill="#7aa2f7" xml:space="preserve">Repos:</tspan><tspan x="349.6" fill="#a9b1d6" xml:space="preserve">20</tspan></text>
-<text x="22" y="230" class="ln" style="animation-name:p7" xml:space="preserve"><tspan x="22.0" fill="#7aa2f7" xml:space="preserve">  ;;;    o   o    ;;;  </tspan><tspan x="240.4" fill="#7aa2f7" xml:space="preserve">Stars:</tspan><tspan x="349.6" fill="#a9b1d6" xml:space="preserve">3</tspan></text>
-<text x="22" y="252" class="ln" style="animation-name:p8" xml:space="preserve"><tspan x="22.0" fill="#7aa2f7" xml:space="preserve">  ;;;      &lt;      ;;;  </tspan><tspan x="240.4" fill="#7aa2f7" xml:space="preserve">Forks:</tspan><tspan x="349.6" fill="#a9b1d6" xml:space="preserve">0</tspan></text>
-<text x="22" y="274" class="ln" style="animation-name:p9" xml:space="preserve"><tspan x="22.0" fill="#7aa2f7" xml:space="preserve">   ;;;.  \___/  .;;;   </tspan><tspan x="240.4" fill="#7aa2f7" xml:space="preserve">Followers:</tspan><tspan x="349.6" fill="#a9b1d6" xml:space="preserve">2</tspan></text>
-<text x="22" y="296" class="ln" style="animation-name:p10" xml:space="preserve"><tspan x="22.0" fill="#7aa2f7" xml:space="preserve">    `;;;;;;;;;;;;;`    </tspan><tspan x="240.4" fill="#7aa2f7" xml:space="preserve">Following:</tspan><tspan x="349.6" fill="#a9b1d6" xml:space="preserve">1</tspan></text>
-<text x="22" y="318" class="ln" style="animation-name:p11" xml:space="preserve"><tspan x="22.0" fill="#7aa2f7" xml:space="preserve">       `\;;;;;/`       </tspan><tspan x="240.4" fill="#7aa2f7" xml:space="preserve">Gists:</tspan><tspan x="349.6" fill="#a9b1d6" xml:space="preserve">0</tspan></text>
-<text x="22" y="340" class="ln" style="animation-name:p12" xml:space="preserve"><tspan x="22.0" fill="#7aa2f7" xml:space="preserve">                       </tspan><tspan x="240.4" fill="#7aa2f7" xml:space="preserve">Location:</tspan><tspan x="349.6" fill="#a9b1d6" xml:space="preserve">Sofia, Bulgaria</tspan></text>
-<text x="22" y="362" class="ln" fill="#9ece6a" style="animation-name:p13">stantchev@github.com:~$ </text>
-<text x="223.60000000000002" y="362" class="ln typed" fill="#a9b1d6" style="animation-name:t13">languages</text>
-<g class="ln" style="animation-name:p14"><rect x="32.0" y="372.0" width="326.7" height="10.9" rx="2" fill="#7aa2f7"/><rect x="358.7" y="372.0" width="204.2" height="10.9" rx="2" fill="#9ece6a"/><rect x="562.9" y="372.0" width="163.4" height="10.9" rx="2" fill="#e0af68"/><rect x="726.3" y="372.0" width="40.8" height="10.9" rx="2" fill="#f7768e"/><rect x="767.2" y="372.0" width="40.8" height="10.9" rx="2" fill="#565f89"/></g>
-<text x="22" y="406" class="ln" style="animation-name:p15" xml:space="preserve"><tspan fill="#a9b1d6" xml:space="preserve"></tspan></text>
-<text x="22" y="428" class="ln" style="animation-name:p16" xml:space="preserve"><tspan x="38.8" fill="#7aa2f7" xml:space="preserve">●</tspan><tspan x="64.0" fill="#a9b1d6" xml:space="preserve">TypeScript</tspan><tspan x="240.4" fill="#565f89" xml:space="preserve">42.1%</tspan></text>
-<text x="22" y="450" class="ln" style="animation-name:p17" xml:space="preserve"><tspan x="38.8" fill="#9ece6a" xml:space="preserve">●</tspan><tspan x="64.0" fill="#a9b1d6" xml:space="preserve">PHP</tspan><tspan x="240.4" fill="#565f89" xml:space="preserve">26.3%</tspan></text>
-<text x="22" y="472" class="ln" style="animation-name:p18" xml:space="preserve"><tspan x="38.8" fill="#e0af68" xml:space="preserve">●</tspan><tspan x="64.0" fill="#a9b1d6" xml:space="preserve">JavaScript</tspan><tspan x="240.4" fill="#565f89" xml:space="preserve">21.1%</tspan></text>
-<text x="22" y="494" class="ln" style="animation-name:p19" xml:space="preserve"><tspan x="38.8" fill="#f7768e" xml:space="preserve">●</tspan><tspan x="64.0" fill="#a9b1d6" xml:space="preserve">HTML</tspan><tspan x="240.4" fill="#565f89" xml:space="preserve">5.3%</tspan></text>
-<text x="22" y="516" class="ln" style="animation-name:p20" xml:space="preserve"><tspan x="38.8" fill="#565f89" xml:space="preserve">●</tspan><tspan x="64.0" fill="#a9b1d6" xml:space="preserve">CSS</tspan><tspan x="240.4" fill="#565f89" xml:space="preserve">5.3%</tspan></text>
-<text x="22" y="538" class="ln" fill="#9ece6a" style="animation-name:p21">stantchev@github.com:~$ </text>
-<text x="223.60000000000002" y="538" class="ln typed" fill="#a9b1d6" style="animation-name:t21">top-repos</text>
-<text x="22" y="560" class="ln" style="animation-name:p22" xml:space="preserve"><tspan x="38.8" fill="#565f89" xml:space="preserve">REPOSITORY</tspan><tspan x="324.4" fill="#565f89" xml:space="preserve">LANGUAGE</tspan><tspan x="475.6" fill="#565f89" xml:space="preserve">STARS</tspan></text>
-<text x="22" y="582" class="ln" style="animation-name:p23" xml:space="preserve"><tspan x="38.8" fill="#565f89" xml:space="preserve">----------------------------------------------------------</tspan></text>
-<text x="22" y="604" class="ln" style="animation-name:p24" xml:space="preserve"><tspan x="38.8" fill="#a9b1d6" xml:space="preserve">ChatGPT-Auto-Publisher</tspan><tspan x="324.4" fill="#7aa2f7" xml:space="preserve">PHP</tspan><tspan x="475.6" fill="#e0af68" xml:space="preserve">★ 1</tspan></text>
-<text x="22" y="626" class="ln" style="animation-name:p25" xml:space="preserve"><tspan x="38.8" fill="#a9b1d6" xml:space="preserve">content-decay-monitor-wordpress-</tspan><tspan x="324.4" fill="#7aa2f7" xml:space="preserve">HTML</tspan><tspan x="475.6" fill="#e0af68" xml:space="preserve">★ 1</tspan></text>
-<text x="22" y="648" class="ln" style="animation-name:p26" xml:space="preserve"><tspan x="38.8" fill="#a9b1d6" xml:space="preserve">QuickContentNotes-WordPress-Plug</tspan><tspan x="324.4" fill="#7aa2f7" xml:space="preserve">PHP</tspan><tspan x="475.6" fill="#e0af68" xml:space="preserve">★ 1</tspan></text>
-<text x="22" y="670" class="ln" style="animation-name:p27" xml:space="preserve"><tspan x="38.8" fill="#a9b1d6" xml:space="preserve">chromapick</tspan><tspan x="324.4" fill="#7aa2f7" xml:space="preserve">JavaScript</tspan><tspan x="475.6" fill="#e0af68" xml:space="preserve">★ 0</tspan></text>
-<text x="22" y="692" class="ln" style="animation-name:p28" xml:space="preserve"><tspan x="38.8" fill="#a9b1d6" xml:space="preserve">ContentAI-Pro</tspan><tspan x="324.4" fill="#7aa2f7" xml:space="preserve">PHP</tspan><tspan x="475.6" fill="#e0af68" xml:space="preserve">★ 0</tspan></text>
-<text x="22" y="714" class="ln" fill="#9ece6a" style="animation-name:p29">stantchev@github.com:~$ </text>
-<text x="223.60000000000002" y="714" class="ln typed" fill="#a9b1d6" style="animation-name:t29">uptime</text>
-<text x="22" y="736" class="ln" style="animation-name:p30" xml:space="preserve"><tspan fill="#565f89" xml:space="preserve">  up </tspan><tspan fill="#9ece6a" xml:space="preserve">1 years, 321 days</tspan><tspan fill="#565f89" xml:space="preserve">   (since 2024-10-18)</tspan></text>
-<text x="22" y="758" class="ln" fill="#9ece6a" style="animation-name:p31">stantchev@github.com:~$ </text>
-<text x="223.60000000000002" y="758" class="ln typed" fill="#a9b1d6" style="animation-name:t31">exit</text>
-<text x="22" y="780" class="ln" style="animation-name:p32" xml:space="preserve"><tspan fill="#565f89" xml:space="preserve">logout</tspan></text>
-<rect class="cursor" x="22" y="789" width="8.4" height="14" fill="#7aa2f7"/>
-</g>
+<rect width="860" height="1258" rx="10" fill="#000000"/>
+<rect width="860" height="1258" rx="10" fill="none" stroke="#00ff00" stroke-opacity="0.5"/>
+<g filter="url(#glow)">
 
+<text x="22" y="76" class="ln" fill="#00ff00" style="animation-name:p0">stantchev@0xdeadbeef:~$ </text>
+<text x="223.60000000000002" y="76" class="ln typed" fill="#00ff00" style="animation-name:t0">./init.sh --root</text>
+<text x="22" y="98" class="ln" style="animation-name:p1" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">[ OK ] mounting /dev/brain</tspan></text>
+<text x="22" y="120" class="ln" style="animation-name:p2" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">[ OK ] escalating privileges</tspan></text>
+<text x="22" y="142" class="ln" style="animation-name:p3" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">[ OK ] access granted</tspan></text>
+<text x="22" y="164" class="ln" fill="#00ff00" style="animation-name:p4">stantchev@0xdeadbeef:~$ </text>
+<text x="223.60000000000002" y="164" class="ln typed" fill="#00ff00" style="animation-name:t4">whoami</text>
+<text x="22" y="186" class="ln" style="animation-name:p5" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">Stanchev Digital</tspan></text>
+<text x="22" y="208" class="ln" style="animation-name:p6" xml:space="preserve"><tspan fill="#008800" xml:space="preserve">Front-End Developer &amp; Technical SEO Specialist. Building with React, Next.js &amp; Node.js. Obsessed with fast, crawlable, well-structured web. 📍 Bulgaria</tspan></text>
+<text x="22" y="230" class="ln" fill="#00ff00" style="animation-name:p7">stantchev@0xdeadbeef:~$ </text>
+<text x="223.60000000000002" y="230" class="ln typed" fill="#00ff00" style="animation-name:t7">neofetch</text>
+<text x="22" y="252" class="ln" style="animation-name:p8" xml:space="preserve"><tspan x="22.0" fill="#00ff00" xml:space="preserve">      .-&quot;&quot;&quot;&quot;&quot;&quot;&quot;-.      </tspan><tspan x="240.4" fill="#00ff00" xml:space="preserve">stantchev@0xdeadbeef</tspan></text>
+<text x="22" y="274" class="ln" style="animation-name:p9" xml:space="preserve"><tspan x="22.0" fill="#00ff00" xml:space="preserve">    .'  _     _  `.    </tspan><tspan x="240.4" fill="#008800" xml:space="preserve">------------------------</tspan></text>
+<text x="22" y="296" class="ln" style="animation-name:p10" xml:space="preserve"><tspan x="22.0" fill="#00ff00" xml:space="preserve">   /   (o)   (o)   \   </tspan><tspan x="240.4" fill="#00ff00" xml:space="preserve">Repos:</tspan><tspan x="349.6" fill="#00ff00" xml:space="preserve">20</tspan></text>
+<text x="22" y="318" class="ln" style="animation-name:p11" xml:space="preserve"><tspan x="22.0" fill="#00ff00" xml:space="preserve">  |      .---.      |  </tspan><tspan x="240.4" fill="#00ff00" xml:space="preserve">Stars:</tspan><tspan x="349.6" fill="#00ff00" xml:space="preserve">3</tspan></text>
+<text x="22" y="340" class="ln" style="animation-name:p12" xml:space="preserve"><tspan x="22.0" fill="#00ff00" xml:space="preserve">   \    '-...-'    /   </tspan><tspan x="240.4" fill="#00ff00" xml:space="preserve">Forks:</tspan><tspan x="349.6" fill="#00ff00" xml:space="preserve">0</tspan></text>
+<text x="22" y="362" class="ln" style="animation-name:p13" xml:space="preserve"><tspan x="22.0" fill="#00ff00" xml:space="preserve">    `.  |||||||  .'    </tspan><tspan x="240.4" fill="#00ff00" xml:space="preserve">Followers:</tspan><tspan x="349.6" fill="#00ff00" xml:space="preserve">2</tspan></text>
+<text x="22" y="384" class="ln" style="animation-name:p14" xml:space="preserve"><tspan x="22.0" fill="#00ff00" xml:space="preserve">      `-.......-'      </tspan><tspan x="240.4" fill="#00ff00" xml:space="preserve">Following:</tspan><tspan x="349.6" fill="#00ff00" xml:space="preserve">1</tspan></text>
+<text x="22" y="406" class="ln" style="animation-name:p15" xml:space="preserve"><tspan x="22.0" fill="#00ff00" xml:space="preserve">     [ ACCESS: ROOT ]  </tspan><tspan x="240.4" fill="#00ff00" xml:space="preserve">Gists:</tspan><tspan x="349.6" fill="#00ff00" xml:space="preserve">0</tspan></text>
+<text x="22" y="428" class="ln" style="animation-name:p16" xml:space="preserve"><tspan x="22.0" fill="#00ff00" xml:space="preserve">                       </tspan><tspan x="240.4" fill="#00ff00" xml:space="preserve">Location:</tspan><tspan x="349.6" fill="#00ff00" xml:space="preserve">Sofia, Bulgaria</tspan></text>
+<text x="22" y="450" class="ln" fill="#00ff00" style="animation-name:p17">stantchev@0xdeadbeef:~$ </text>
+<text x="223.60000000000002" y="450" class="ln typed" fill="#00ff00" style="animation-name:t17">cat /etc/stack</text>
+<text x="22" y="472" class="ln" style="animation-name:p18" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">security:  pentesting, threat modeling, incident response</tspan></text>
+<text x="22" y="494" class="ln" style="animation-name:p19" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">seo:       technical audits, schema, core web vitals</tspan></text>
+<text x="22" y="516" class="ln" style="animation-name:p20" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">scripting: python, bash, sql</tspan></text>
+<text x="22" y="538" class="ln" fill="#00ff00" style="animation-name:p21">stantchev@0xdeadbeef:~$ </text>
+<text x="223.60000000000002" y="538" class="ln typed" fill="#00ff00" style="animation-name:t21">languages</text>
+<g class="ln" style="animation-name:p22"><rect x="32.0" y="548.0" width="335.2" height="10.9" rx="2" fill="#00ff00"/><rect x="367.2" y="548.0" width="209.5" height="10.9" rx="2" fill="#00ff00"/><rect x="576.6" y="548.0" width="167.6" height="10.9" rx="2" fill="#7fff00"/><rect x="744.2" y="548.0" width="41.9" height="10.9" rx="2" fill="#00cc00"/><rect x="786.1" y="548.0" width="41.9" height="10.9" rx="2" fill="#008800"/></g>
+<text x="22" y="582" class="ln" style="animation-name:p23" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve"></tspan></text>
+<text x="22" y="604" class="ln" style="animation-name:p24" xml:space="preserve"><tspan x="38.8" fill="#00ff00" xml:space="preserve">●</tspan><tspan x="64.0" fill="#00ff00" xml:space="preserve">TypeScript</tspan><tspan x="240.4" fill="#008800" xml:space="preserve">42.1%</tspan></text>
+<text x="22" y="626" class="ln" style="animation-name:p25" xml:space="preserve"><tspan x="38.8" fill="#00ff00" xml:space="preserve">●</tspan><tspan x="64.0" fill="#00ff00" xml:space="preserve">PHP</tspan><tspan x="240.4" fill="#008800" xml:space="preserve">26.3%</tspan></text>
+<text x="22" y="648" class="ln" style="animation-name:p26" xml:space="preserve"><tspan x="38.8" fill="#7fff00" xml:space="preserve">●</tspan><tspan x="64.0" fill="#00ff00" xml:space="preserve">JavaScript</tspan><tspan x="240.4" fill="#008800" xml:space="preserve">21.1%</tspan></text>
+<text x="22" y="670" class="ln" style="animation-name:p27" xml:space="preserve"><tspan x="38.8" fill="#00cc00" xml:space="preserve">●</tspan><tspan x="64.0" fill="#00ff00" xml:space="preserve">HTML</tspan><tspan x="240.4" fill="#008800" xml:space="preserve">5.3%</tspan></text>
+<text x="22" y="692" class="ln" style="animation-name:p28" xml:space="preserve"><tspan x="38.8" fill="#008800" xml:space="preserve">●</tspan><tspan x="64.0" fill="#00ff00" xml:space="preserve">CSS</tspan><tspan x="240.4" fill="#008800" xml:space="preserve">5.3%</tspan></text>
+<text x="22" y="714" class="ln" fill="#00ff00" style="animation-name:p29">stantchev@0xdeadbeef:~$ </text>
+<text x="223.60000000000002" y="714" class="ln typed" fill="#00ff00" style="animation-name:t29">top-repos</text>
+<text x="22" y="736" class="ln" style="animation-name:p30" xml:space="preserve"><tspan x="38.8" fill="#008800" xml:space="preserve">REPOSITORY</tspan><tspan x="324.4" fill="#008800" xml:space="preserve">LANGUAGE</tspan><tspan x="475.6" fill="#008800" xml:space="preserve">STARS</tspan></text>
+<text x="22" y="758" class="ln" style="animation-name:p31" xml:space="preserve"><tspan x="38.8" fill="#008800" xml:space="preserve">----------------------------------------------------------</tspan></text>
+<text x="22" y="780" class="ln" style="animation-name:p32" xml:space="preserve"><tspan x="38.8" fill="#00ff00" xml:space="preserve">ChatGPT-Auto-Publisher</tspan><tspan x="324.4" fill="#00ff00" xml:space="preserve">PHP</tspan><tspan x="475.6" fill="#7fff00" xml:space="preserve">★ 1</tspan></text>
+<text x="22" y="802" class="ln" style="animation-name:p33" xml:space="preserve"><tspan x="38.8" fill="#00ff00" xml:space="preserve">content-decay-monitor-wordpress-</tspan><tspan x="324.4" fill="#00ff00" xml:space="preserve">HTML</tspan><tspan x="475.6" fill="#7fff00" xml:space="preserve">★ 1</tspan></text>
+<text x="22" y="824" class="ln" style="animation-name:p34" xml:space="preserve"><tspan x="38.8" fill="#00ff00" xml:space="preserve">QuickContentNotes-WordPress-Plug</tspan><tspan x="324.4" fill="#00ff00" xml:space="preserve">PHP</tspan><tspan x="475.6" fill="#7fff00" xml:space="preserve">★ 1</tspan></text>
+<text x="22" y="846" class="ln" style="animation-name:p35" xml:space="preserve"><tspan x="38.8" fill="#00ff00" xml:space="preserve">chromapick</tspan><tspan x="324.4" fill="#00ff00" xml:space="preserve">JavaScript</tspan><tspan x="475.6" fill="#7fff00" xml:space="preserve">★ 0</tspan></text>
+<text x="22" y="868" class="ln" style="animation-name:p36" xml:space="preserve"><tspan x="38.8" fill="#00ff00" xml:space="preserve">ContentAI-Pro</tspan><tspan x="324.4" fill="#00ff00" xml:space="preserve">PHP</tspan><tspan x="475.6" fill="#7fff00" xml:space="preserve">★ 0</tspan></text>
+<text x="22" y="890" class="ln" fill="#00ff00" style="animation-name:p37">stantchev@0xdeadbeef:~$ </text>
+<text x="223.60000000000002" y="890" class="ln typed" fill="#00ff00" style="animation-name:t37">nmap -sS localhost</text>
+<text x="22" y="912" class="ln" style="animation-name:p38" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">PORT     STATE  SERVICE</tspan></text>
+<text x="22" y="934" class="ln" style="animation-name:p39" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">22/tcp   open   ssh</tspan></text>
+<text x="22" y="956" class="ln" style="animation-name:p40" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">443/tcp  open   https</tspan></text>
+<text x="22" y="978" class="ln" style="animation-name:p41" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">8080/tcp open   side-project</tspan></text>
+<text x="22" y="1000" class="ln" style="animation-name:p42" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">3000/tcp open   another-side-project</tspan></text>
+<text x="22" y="1022" class="ln" fill="#00ff00" style="animation-name:p43">stantchev@0xdeadbeef:~$ </text>
+<text x="223.60000000000002" y="1022" class="ln typed" fill="#00ff00" style="animation-name:t43">history | tail -3</text>
+<text x="22" y="1044" class="ln" style="animation-name:p44" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">git commit -m 'fix'</tspan></text>
+<text x="22" y="1066" class="ln" style="animation-name:p45" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">git commit -m 'fix fix'</tspan></text>
+<text x="22" y="1088" class="ln" style="animation-name:p46" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">git commit -m 'ok naistina fix'</tspan></text>
+<text x="22" y="1110" class="ln" fill="#00ff00" style="animation-name:p47">stantchev@0xdeadbeef:~$ </text>
+<text x="223.60000000000002" y="1110" class="ln typed" fill="#00ff00" style="animation-name:t47">contact --list</text>
+<text x="22" y="1132" class="ln" style="animation-name:p48" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">linkedin: /in/stanchev-seo</tspan></text>
+<text x="22" y="1154" class="ln" fill="#00ff00" style="animation-name:p49">stantchev@0xdeadbeef:~$ </text>
+<text x="223.60000000000002" y="1154" class="ln typed" fill="#00ff00" style="animation-name:t49">sudo rm -rf /</text>
+<text x="22" y="1176" class="ln" style="animation-name:p50" xml:space="preserve"><tspan fill="#00ff00" xml:space="preserve">permission denied: nice try</tspan></text>
+<text x="22" y="1198" class="ln" fill="#00ff00" style="animation-name:p51">stantchev@0xdeadbeef:~$ </text>
+<text x="223.60000000000002" y="1198" class="ln typed" fill="#00ff00" style="animation-name:t51">exit</text>
+<text x="22" y="1220" class="ln" style="animation-name:p52" xml:space="preserve"><tspan fill="#008800" xml:space="preserve">logout</tspan></text>
+<rect class="cursor" x="22" y="1229" width="8.4" height="14" fill="#00ff00"/>
+</g>
+<rect width="860" height="1258" rx="10" fill="url(#scan)" pointer-events="none"/>
 </svg>
